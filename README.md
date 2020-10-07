@@ -6,6 +6,6 @@ stringEncrypter.py:
 ---------------------------
 * A Python program that accepts a string message from a user and encrypts and decrypts the message to match the original message.
 * Example Code:
-  Enter a message: Hello World
-  Encrypted Message: Dsvvb Kbnvw
-  Decrypted Message: Hello World
+  *Enter a message: Hello World
+  *Encrypted Message: Dsvvb Kbnvw
+  *Decrypted Message: Hello World
