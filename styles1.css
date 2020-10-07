@@ -1,0 +1,59 @@
+.buttons {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  cursor: pointer;
+}
+
+.buttons + img {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  padding: 3px;
+}
+
+.addedBtn{
+  margin-left: 5px;
+}
+
+.buttons:checked + img {
+  background-color: #F0E68C;
+}
+
+.buttons:disabled + img {
+  background-color: #48D1CC;
+}
+
+input[type=text]{
+  margin: 10px;
+}
+
+div{
+  border-radius: 25px;
+  border: 2px solid #FFFFFF;
+  margin: 10px;
+  padding: 10px;
+  background-color: #48D1CC;
+  width: 900px;
+  display: block;
+}
+
+.srBtn{
+  background-color: #DB7093;
+  border-color: #DB7093;
+  color: #FFFFFF;
+}
+
+#userComments{
+  text-align: center;
+}
+
+.theUser{
+  color: #F0E68C;
+  font-weight: bold;
+}
+
+h3{
+  color: #FFFFFF;
+}

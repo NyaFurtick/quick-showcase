@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Forms</title>
+    <link href="styles1.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <h1> BlogSpotty </h1>
+
+    <div>
+      <h3> Our First Post </h3>
+      <p class="post"> Welcome to the bolg about blogging/nothing! Our interests include blogs and absolutely anything irrelevant
+      or important! Tell us how you like this post below! Thanks for visiting BlogSpotty! </p>
+    </div>
+
+    <div id="userComments">
+      <h3> Comments... </h3>
+    </div>
+
+    <div>
+      <form name="myForm">
+        Leave A Comment </br>
+        Name: <input type="text" name="userName" required>
+        <label>
+          <input type="radio" id="thumbsUp" class="buttons" name="likeBtn"/>
+          <img src="thumbsUp.png" height="20" width="20" />
+        </label>
+        <label>
+          <input type="radio" id="thumbsDown" class="buttons" name="likeBtn"/>
+          <img src="thumbsDown.png" height="20" width="20" />
+        </label></br>
+        <textarea rows="7" cols="40" placeholder="Leave your comment here..." name="comment" id="commentArea" required></textarea></br>
+        <p id="commentLength"></p>
+        <input type="submit" value="Add Comment" class="srBtn"/>
+        <input type="reset" value="Clear" class="srBtn"/>
+      </form>
+    </div>
+
+    <script type='text/javascript' src='forms-activity.js'></script>
+  </body>
+</html>
