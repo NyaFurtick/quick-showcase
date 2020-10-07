@@ -19,6 +19,6 @@ blogspotty.js:
 
 jscalculator.js:
 ---------------------------
-* Basic calculator in written in JavaScript
+* Basic calculator written in JavaScript
 * Perform basic arithmetic functions
 * Download code and deploy calculator.html to use calculator
